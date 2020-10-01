@@ -15,6 +15,8 @@
 		31B46FDA2522CAC60001149F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B46FD82522CAC60001149F /* LaunchScreen.storyboard */; };
 		31B46FE52522CAC60001149F /* NightPorterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B46FE42522CAC60001149F /* NightPorterTests.swift */; };
 		31B46FF02522CAC60001149F /* NightPorterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B46FEF2522CAC60001149F /* NightPorterUITests.swift */; };
+		31B47001252387460001149F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B47000252387460001149F /* SecondViewController.swift */; };
+		31B47006252402A50001149F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B47005252402A50001149F /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		31B46FEB2522CAC60001149F /* NightPorterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightPorterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B46FEF2522CAC60001149F /* NightPorterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightPorterUITests.swift; sourceTree = "<group>"; };
 		31B46FF12522CAC60001149F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B47000252387460001149F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		31B47005252402A50001149F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				31B46FCF2522CAC50001149F /* SceneDelegate.swift */,
 				31B46FD12522CAC50001149F /* ViewController.swift */,
 				31B46FD32522CAC50001149F /* Main.storyboard */,
+				31B47000252387460001149F /* SecondViewController.swift */,
 				31B46FD62522CAC60001149F /* Assets.xcassets */,
 				31B46FD82522CAC60001149F /* LaunchScreen.storyboard */,
 				31B46FDB2522CAC60001149F /* Info.plist */,
+				31B47005252402A50001149F /* Task.swift */,
 			);
 			path = NightPorter;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B47001252387460001149F /* SecondViewController.swift in Sources */,
 				31B46FD22522CAC50001149F /* ViewController.swift in Sources */,
+				31B47006252402A50001149F /* Task.swift in Sources */,
 				31B46FCE2522CAC50001149F /* AppDelegate.swift in Sources */,
 				31B46FD02522CAC50001149F /* SceneDelegate.swift in Sources */,
 			);
